@@ -2718,6 +2718,7 @@ input[type="button"].btn-block {
 }
 .glyphicon-copyright-mark:before {
   content: "\e194";
+  text-align:center;
 }
 .glyphicon-registration-mark:before {
   content: "\e195";

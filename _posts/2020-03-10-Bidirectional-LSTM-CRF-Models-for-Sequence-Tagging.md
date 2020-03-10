@@ -2,7 +2,7 @@
 layout: post
 title:  Bidirectional LSTM-CRF Models for Sequence Tagging（论文翻译）
 date:   2020-03-10 15:33:00 +0800
-categories: paper translation
+categories: NLP学习
 tag: 论文翻译
 ---
 

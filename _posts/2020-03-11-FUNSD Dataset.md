@@ -34,6 +34,28 @@ tag: 开源数据集
 
 ![json_info](https://elvira521feng.github.io/YanQunJiang.github.io/styles/images/datasets/json_imformation.png)
 
+注：  
+1) box位置用左上右下两个点来确定，即box对应的4个值为[x0, y0, x1, y1]。  
+2) lable的值有[question, answer, header, other]
+3) linking对应的list为其指向的其他实体
+
+### 训练集和测试集的数据分布  
+数据分布统计情况
+Split | Forms | Words | Entities | Relations  
+-|-|-|-|-   
+Training | 149 | 22, 512 | 7, 411 | 4, 236  
+Testing | 50 | 8, 973 | 2, 332 | 1, 076
+  
+实体类别分布情况    
+Split  | Header | Question | Answer | Other | Total  
+-|-|-|-|-|-      
+Training | 441 | 3, 266 | 2, 802 | 902 | 7, 411  
+Testing | 122 | 1, 077 | 821 | 312 | 2, 332  
+
+
+论文地址：https://arxiv.org/pdf/1905.13538.pdf
+数据下载地址：https://guillaumejaume.github.io/FUNSD/
+
 
  
 （注：若有错误希望大家指出！）
